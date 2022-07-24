@@ -1,0 +1,435 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+    color: crimson;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #eee;
+    padding: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Login */
+.login-container {
+    padding: 30px;
+}
+
+.login-container .main-label {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.login-container .main-text {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-container .form-group .button-spacing {
+    margin-left: 45%
+}
+
+/* Register */
+.register-container {
+    padding: 30px;
+}
+
+.register-container .main-label {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.register-container .main-text {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-button-space {
+    padding-left: 53%;
+}
+
+.link-text {
+    color: white;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+/* Navigation Bar */
+.nav-container {
+    width: 100%;
+}
+
+.topnav {
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.topnav .nav-link {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav .nav-link:hover {
+    background-color: orangered;
+    color: yellow;
+}
+
+.dropbtn {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: crimson;
+    color: white;
+    padding: 14px 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: crimson;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: orangered;
+    color: yellow;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: orangered;
+    color: yellow;
+}
+
+.dropdown > button {
+    outline: none !important;
+}
+
+/* Dashboard */
+.dashboard-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.user-title {
+    font-size: 50px;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+}
+
+.dashboard-container .section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dashboard-container .section .section-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: firebrick;
+    padding: 12px 0;
+}
+
+.dashboard-container .section .main-image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    margin-bottom: 2px;
+}
+
+.dashboard-container .column {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.dashboard-container .link-text {
+    margin-top: 2px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.dashboard-container .card .room-column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+.dashboard-cotainer .card .row-room:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row-room {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard-container .column {
+        width: 100%;
+    }
+}
+
+/* Profile */
+.profile-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.profile-container .profile-title {
+    color: white;
+    background-color: rgba(206, 56, 29, 0.842);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.profile-container .card-body .col-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.profile-container .card-body .col-input {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.profile-row {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+/* Booking */
+.bookroom-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.book-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.book-row .leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.book-row .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.book-row .book-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid crimson;
+    border-radius: .25rem;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.book-row .low-leftcolumn {
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+
+.book-row .low-rightcolumn {
+    float: right;
+    width: 70%;
+    padding-left: 20px;
+}
+
+/* Request */
+.request-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.request-container .profile-title {
+    color: white;
+    background-color: rgba(206, 56, 29, 0.842);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.request-container .column {
+    width: 50%;
+    padding: 15px;
+}
+
+.request-container .section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.request-container .section .section-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: firebrick;
+    padding: 12px 0;
+}
+
+.request-container .section > select {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+
+.request-container table {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.request-container td, .request-container th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:first-child {
+    background-color: rgba(206, 56, 29, 0.842);
+    color: white;
+}
+
+/* Check-in/out */
+.check-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.check-container .profile-title {
+    color: white;
+    background-color: rgba(206, 56, 29, 0.842);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px
+}
+
+.check-container table {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.check-container td, .check-container th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:first-child {
+    background-color: rgba(206, 56, 29, 0.842);
+    color: white;
+}
+
+  
